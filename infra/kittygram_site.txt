@@ -1,0 +1,5 @@
+IP: 51.250.104.171;
+name_taski: https://taskispb.sytes.net/;
+name_kittygram: https://kittygramspb.serveblog.net/;
+login: Admin12345;
+password: 12345;
