@@ -8,6 +8,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'default_django_key')
 DEBUG = False
 
 ALLOWED_HOSTS = [
+    '*',
     '51.250.104.171',
     '127.0.0.1',
     'localhost',
@@ -99,7 +100,7 @@ STATIC_URL = '/static_backend/'
 STATIC_ROOT = BASE_DIR / 'static_backend'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/var/www/kittygram/media/'
+MEDIA_ROOT = '/var/www/kittygram/media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
